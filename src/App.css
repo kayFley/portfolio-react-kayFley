@@ -1,17 +1,17 @@
 /* font face */
 @font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Bold.ttf");
+  font-family: RedHatDisplay;
+  src: url("./assets/font/RedHatDisplay-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Medium.ttf");
+  font-family: RedHatDisplay;
+  src: url("./assets/font/RedHatDisplay-Regular.ttf");
   font-weight: 500;
 }
 @font-face {
-  font-family: Centra;
-  src: url("./assets/font/CentraNo2-Book.ttf");
+  font-family: RedHatDisplay;
+  src: url("./assets/font/RedHatDisplay-Light.ttf");
   font-weight: 400;
 }
 
@@ -246,7 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url("./assets/img/banner-bg.png");
+  background-image: url("");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -257,8 +257,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   background: linear-gradient(
     90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
+    rgba(27, 111, 134, 0.5) -5%,
+    rgba(67, 222, 246, 0.5) 100%
   );
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
@@ -301,7 +301,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
-@keyframes updown {
+/* @keyframes updown {
   0% {
     transform: translateY(-20px);
   }
@@ -311,8 +311,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
-}
+} */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
-
