@@ -12,6 +12,7 @@
 /build
 /src/assets/font/*.*
 /src/assets/img/*.*
+/src/components/listProjects.js
 
 # misc
 .DS_Store
