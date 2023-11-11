@@ -30,9 +30,6 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  background-image: url("./assets/img/footer-bg\ —\ копия.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   color: #fff !important;
   font-family: "RedHatDisplay", sans-serif !important;
 }
@@ -239,6 +236,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
+  background-image: url("./assets/img/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .banner .tagline {
   font-weight: 700;
@@ -249,7 +249,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     rgba(29, 49, 168, 0.5) -5%,
     rgba(28, 90, 147, 0.5) 110%
   );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  border-radius: 8px;
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -294,7 +295,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-box {
-  background: #121212;
+  background: #161616;
   border-radius: 48px;
   text-align: center;
   padding: 60px 50px;
@@ -319,4 +320,79 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item img {
   width: 40%;
   margin: 0 auto 15px auto;
+}
+
+/* projects css */
+.project {
+  padding: 80px 0;
+  position: relative;
+  background-image: url("./assets/img/color-sharp2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+.project h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.project p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  text-align: center;
+  width: 56%;
+}
+.proj-imgbx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.proj-imgbx::before {
+  content: "";
+  background: linear-gradient(
+    90.21deg,
+    rgba(29, 49, 168, 0.5) -5%,
+    rgba(28, 90, 147, 0.5) 110%
+  );
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transition: 0.2s ease-in-out;
+}
+.proj-imgbx:hover::before {
+  height: 100%;
+}
+.proj-txtx {
+  position: absolute;
+  text-align: center;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+  width: 100%;
+}
+.proj-imgbx:hover .proj-txtx {
+  top: 50%;
+  opacity: 1;
+}
+.proj-txtx h4 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1.1em;
+}
+.proj-txtx span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.8px;
 }

@@ -31,7 +31,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand href="#home">
           {/* <img src={logo} alt="logo"></img> */}
-          <h1 style= { {color: 'white'}}>{`[ ]`}</h1>
+          <h1 style={{ color: "white" }}>{`[ ]`}</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
