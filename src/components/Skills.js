@@ -38,11 +38,9 @@ export const Skills = () => {
             <div className="skill-box wow zoomIn">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                <br></br> Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.
+              I am proficient in a wide range of technologies for web application development, including server-side and client-side frameworks, databases, and programming languages.
+              <br></br>
+              This knowledge of web application development and data management enables the creation of scalable and efficient applications.
               </p>
 
               <Carousel

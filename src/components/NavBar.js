@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-// import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import tgIcon from "../assets/img/tg-icon.svg";
+import vkIcon from "../assets/img/vk-icon.svg";
+import githubIcon from "../assets/img/github-icon.svg";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -30,8 +30,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          {/* <img src={logo} alt="logo"></img> */}
-          <h1 style={{ color: "white" }}>{`[ ]`}</h1>
+          <h2 style={{ color: "white" }}>{`kayFley`}</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -69,15 +68,15 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="#">
-                <img src={navIcon1} alt=""></img>
+                <img src={tgIcon} alt="tg"></img>
               </a>
               <a href="#">
-                <img src={navIcon2} alt=""></img>
+                <img src={vkIcon} alt="vk"></img>
+              </a>
+              <a href="https://github.com/kayFley/">
+                <img src={githubIcon} alt="github"></img>
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Connect</span>
-            </button>
           </span>
         </Navbar.Collapse>
       </Container>
