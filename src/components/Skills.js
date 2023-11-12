@@ -9,6 +9,7 @@ import reduxIcon from "../assets/img/redux-icon.svg";
 import djangoIcon from "../assets/img/django-icon.svg";
 import mongodbIcon from "../assets/img/mongodb-icon.svg";
 import postgresqlIcon from "../assets/img/postgresql-icon.svg";
+import colorSharp from "../assets/img/color-sharp2.png";
 
 export const Skills = () => {
   const responsive = {
@@ -38,9 +39,13 @@ export const Skills = () => {
             <div className="skill-box wow zoomIn">
               <h2>Skills</h2>
               <p>
-              I am proficient in a wide range of technologies for web application development, including server-side and client-side frameworks, databases, and programming languages.
-              <br></br>
-              This knowledge of web application development and data management enables the creation of scalable and efficient applications.
+                I am proficient in a wide range of technologies for web
+                application development, including server-side and client-side
+                frameworks, databases, and programming languages.
+                <br></br>
+                This knowledge of web application development and data
+                management enables the creation of scalable and efficient
+                applications.
               </p>
 
               <Carousel
@@ -87,6 +92,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
+      <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   );
 };
