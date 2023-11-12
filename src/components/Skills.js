@@ -73,7 +73,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={reduxIcon} alt="reduxjs" />
-                  <h5>Redux toolkit</h5>
+                  <h5>Redux</h5>
                 </div>
                 <div className="item">
                   <img src={djangoIcon} alt="django" />
