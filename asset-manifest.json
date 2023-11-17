@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-kayFley/static/css/main.c38d8df3.css",
-    "main.js": "/portfolio-react-kayFley/static/js/main.3fc6900c.js",
+    "main.js": "/portfolio-react-kayFley/static/js/main.bbe3ffcc.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react-kayFley/static/js/787.7da95b79.chunk.js",
     "static/media/project-img1.png": "/portfolio-react-kayFley/static/media/project-img1.23a5af3f0a166a7b527e.png",
     "static/media/color-sharp2.png": "/portfolio-react-kayFley/static/media/color-sharp2.f482cf4a6872f499d0c5.png",
@@ -25,11 +25,11 @@
     "static/media/django-icon.svg": "/portfolio-react-kayFley/static/media/django-icon.c53d7b212d9f61013c22718e7ea29987.svg",
     "index.html": "/portfolio-react-kayFley/index.html",
     "main.c38d8df3.css.map": "/portfolio-react-kayFley/static/css/main.c38d8df3.css.map",
-    "main.3fc6900c.js.map": "/portfolio-react-kayFley/static/js/main.3fc6900c.js.map",
+    "main.bbe3ffcc.js.map": "/portfolio-react-kayFley/static/js/main.bbe3ffcc.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react-kayFley/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c38d8df3.css",
-    "static/js/main.3fc6900c.js"
+    "static/js/main.bbe3ffcc.js"
   ]
 }
