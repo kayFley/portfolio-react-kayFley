@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react-kayFley/static/css/main.c38d8df3.css",
-    "main.js": "/portfolio-react-kayFley/static/js/main.bbe3ffcc.js",
+    "main.js": "/portfolio-react-kayFley/static/js/main.035be824.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio-react-kayFley/static/js/787.7da95b79.chunk.js",
     "static/media/project-img1.png": "/portfolio-react-kayFley/static/media/project-img1.23a5af3f0a166a7b527e.png",
     "static/media/color-sharp2.png": "/portfolio-react-kayFley/static/media/color-sharp2.f482cf4a6872f499d0c5.png",
@@ -9,27 +9,16 @@
     "static/media/RedHatDisplay-Regular.ttf": "/portfolio-react-kayFley/static/media/RedHatDisplay-Regular.dfe5c1e7502e7ee7e3a2.ttf",
     "static/media/RedHatDisplay-Bold.ttf": "/portfolio-react-kayFley/static/media/RedHatDisplay-Bold.32531281c0951bd9b8d1.ttf",
     "static/media/banner-bg.png": "/portfolio-react-kayFley/static/media/banner-bg.8fcbf72fe70895b43382.png",
-    "static/media/nestjs-icon.svg": "/portfolio-react-kayFley/static/media/nestjs-icon.5c16d6d8994596f01f0c491576bdbd3f.svg",
-    "static/media/postgresql-icon.svg": "/portfolio-react-kayFley/static/media/postgresql-icon.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
     "static/media/revicons.eot": "/portfolio-react-kayFley/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio-react-kayFley/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio-react-kayFley/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/react-icon.svg": "/portfolio-react-kayFley/static/media/react-icon.f57b349b4d9df56c9b48c916a8d5adfb.svg",
-    "static/media/nodejs-icon.svg": "/portfolio-react-kayFley/static/media/nodejs-icon.e7e718538ada32a8dc2b61340a397034.svg",
-    "static/media/redux-icon.svg": "/portfolio-react-kayFley/static/media/redux-icon.a907b9f98d324503c0c0d9ac2991eb03.svg",
-    "static/media/github-icon.svg": "/portfolio-react-kayFley/static/media/github-icon.a883c4609d1589ff15eecb14bfcb2151.svg",
-    "static/media/vk-icon.svg": "/portfolio-react-kayFley/static/media/vk-icon.6e16c952f728136e8336bc739f4e4305.svg",
-    "static/media/tg-icon.svg": "/portfolio-react-kayFley/static/media/tg-icon.4032fdc7aa365ee48121035eb9ba535c.svg",
-    "static/media/nextjs-icon.svg": "/portfolio-react-kayFley/static/media/nextjs-icon.cc50e65c9d00918f86fa6448f5b58e0c.svg",
-    "static/media/mongodb-icon.svg": "/portfolio-react-kayFley/static/media/mongodb-icon.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
-    "static/media/django-icon.svg": "/portfolio-react-kayFley/static/media/django-icon.c53d7b212d9f61013c22718e7ea29987.svg",
     "index.html": "/portfolio-react-kayFley/index.html",
     "main.c38d8df3.css.map": "/portfolio-react-kayFley/static/css/main.c38d8df3.css.map",
-    "main.bbe3ffcc.js.map": "/portfolio-react-kayFley/static/js/main.bbe3ffcc.js.map",
+    "main.035be824.js.map": "/portfolio-react-kayFley/static/js/main.035be824.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio-react-kayFley/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c38d8df3.css",
-    "static/js/main.bbe3ffcc.js"
+    "static/js/main.035be824.js"
   ]
 }
